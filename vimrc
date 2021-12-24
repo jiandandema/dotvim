@@ -10,14 +10,14 @@ set listchars=tab:▸\ ,trail:♪
 set scrolloff=8
 
 call plug#begin()
-        Plug 'scrooloose/nerdcommenter' "批量注释
-        Plug 'frazrepo/vim-rainbow'                     "括号 颜色
-        Plug 'scrooloose/nerdtree'                      "文件 显示
-        Plug 'vim-airline/vim-airline'  "bar显示
-        Plug 'scrooloose/syntastic'                     "语法 检测
-        Plug 'majutsushi/tagbar'                             "编程用的Tag
-        Plug 'tpope/vim-surround'                            "更改配对符
-        Plug 'raimondi/delimitmate'                     "自动 配对符号
+        Plug 'scrooloose/nerdcommenter' 								"批量注释
+        Plug 'frazrepo/vim-rainbow'                     "括号颜色
+        Plug 'scrooloose/nerdtree'                      "文件显示
+        Plug 'vim-airline/vim-airline'  								"bar显示
+        Plug 'scrooloose/syntastic'                     "语法检测
+        Plug 'majutsushi/tagbar'                        "编程用的Tag
+        Plug 'tpope/vim-surround'                       "更改配对符
+        Plug 'raimondi/delimitmate'                     "自动配对符号
 call plug#end()
 
 "自动加载NERDTREE
